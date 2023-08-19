@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg\ img.jpeg);
+    color:white;
+    font-family: 'poppins',sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    padding-top: 10px 25px;
+    background-color:#ffffff ;
+    color: white;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width:100vw;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.img img{
+     height: 70px;
+
+}
+nav ul li a{
+
+    text-decoration: none;
+    color: #262626;
+}
+
+.firstsection{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 80px 0;
+    align-items: center;
+}
+.firstsection>div{
+  width: 30%;
+}
+.left{
+    font-size: 1.4rem;
+    margin: 70px 0;
+    color:#262626;
+}
+.right img{
+    /* width: 80%; */
+    width: 90%;
+    margin-top: 50px;
+}
+
+.purpul{
+    color: rgb(43,49,266);
+}
+
+
+.want{
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 20px;
+    
+}
+#element{
+    color: red;
+}
+
+.pos{
+    color:#262626;
+    margin-left: 160px;
+    position: absolute;
+    top:420px;
+    font-size:18px;
+}
+
+.btn{
+   margin-left: 160px; 
+   padding:15px 35px;
+   position: absolute;
+   top:480px;
+   border-radius: 10px;
+   background-color: #6674cc;
+   color: #ffffff;
+   font-size:18px ;
+   border: none;
+   font-weight: bold;
+  
+
+
+} 
+
+.delta a{
+    border: 1px solid red;
+    padding: 10px 16px;
+    color: #ffffff;
+   border: none;
+    background-color: #6674cc;
+    border-radius: 10px;
+}
+
+.course{
+    border: none;
+    font: 16px;
+    color:#1A2930;
+}
+
+.Resources{
+    border: none;
+    font: 16px;
+    color:#1A2930;
+
+}
+
+.sing a{
+    border: 2px solid #6674cc;
+    color: #6674cc;
+    font: 16px;
+    font-weight: bold;
+    padding: 10px 16px;
+    font-weight: 100px;
+
+}
+.alpha{
+    border: 2px solid #6674cc;
+    color: #6674cc;
+    padding: 10px 16px;
+    font-weight: 16px;
+}
+.down{
+    height: 180px;
+    color: #ffffff;
+    background-color: #6674cc;
+    
+
+    
+} 
+.down h2{
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+}
+.downs{
+
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 35px;
+
+}
+
+.ps{
+    font-size: 22px;
+}
+.sp{
+    font-size: 25px;
+
+}
+
+.icon i{
+    height: 30px;
+   
+}
+
+.newbatch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    height: 216px;
+    
+
+    margin-top: 80px;
+    background-color: #ffffff;
+
+}
+.pt {
+    color:#6674cc;
+    font-size: 18px;
+    line-height: 40px;
+}
+.pq {
+    line-height: 40px;
+    color: #262626;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.pv{
+    color: #262626;
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.Explore{
+    margin-top: 25px;
+    padding:15px 35px;
+    border-radius: 10px;
+    background-color: #6674cc;
+    color: #ffffff;
+    font-size:18px ;
+    border: none;
+    font-weight: bold;
+
+}
+.ourstudent{
+    padding: 80px 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #262626;
+    
+    
+}
+.setup h3{
+    line-height: 50px;
+    color: #262626;
+    
+} 
+.setup{
+    background: #ffffff;
+    height: 170px;
+    width: 100vw;
+}
+.setup pre{
+    color: #262626;
+    font-weight: bold;
+     font-size: 15px;
+}
+
+.setup h1{
+    line-height: 50px;
+}
+
+.imge img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 200px;
+    margin-left: 50px;
+}
+.didi p{
+    color: #262626;
+    font-size: 21px;
+}
+.didiimg img{
+    height: 550px;
+    width: 969px;
+    padding: 80px 0px;
+}
+.didi{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 80px 0px;
+}
+
+
+.joint {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #262626;
+    flex-direction: column;
+
+}
+.sap{
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    gap:190px;
+    margin-top: 80px;
+    
+}
+
+
+footer{
+    height: 460px;
+    background-color: #ffffff;
+    padding: 80 0px;
+    margin-top: 20px;
+}
+.ft{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #262626;
+    padding: 80px 0px;
+    justify-content: space-around;
+}
+
+.content img{
+    height: 70px;
+
+}
+.HELPFUL P{
+    padding:0PX 25PX ;
+    margin-bottom: 20PX;
+}
+
+
+
+ 
+
+ 
+
+
+
+
+  
+
+
+
+
